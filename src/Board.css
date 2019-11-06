@@ -1,5 +1,10 @@
 .Board {
   margin: 0 auto;
-  width: 60%;
-  height: 60%;
+}
+
+.startBtn {
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
 }

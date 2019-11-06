@@ -8,15 +8,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Lights Out</h1>
+        <h1>
+          Lights Out <i class="far fa-lightbulb"></i>
+        </h1>
         <h3>
           {" "}
-          <b>Instructions:</b> Clicking on a cell toggles that cell and each of its
-          immediate neighbors.
+          Instructions: The goal is to turn out all the lights, ideally with the
+          minimum number of clicks.
         </h3>
         <h3>
-          The goal is to turn out all the lights, ideally with the minimum
-          number of clicks.
+          Clicking on a cell toggles that cell and each of its immediate
+          neighbors.
         </h3>
         <Game />
       </div>
