@@ -9,17 +9,16 @@ class App extends Component {
     return (
       <div className="App">
         <h1>
-          Lights Out <i class="far fa-lightbulb"></i>
+          Lights Out <i className="far fa-lightbulb"></i>
         </h1>
-        <h3>
-          {" "}
+        <h4>
           Instructions: The goal is to turn out all the lights, ideally with the
           minimum number of clicks.
-        </h3>
-        <h3>
+        </h4>
+        <h4>
           Clicking on a cell toggles that cell and each of its immediate
           neighbors.
-        </h3>
+        </h4>
         <Game />
       </div>
     );

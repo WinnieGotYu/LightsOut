@@ -1,5 +1,10 @@
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0 0.5em;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}

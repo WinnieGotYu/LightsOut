@@ -99,7 +99,7 @@ class Board extends Component {
     return (
       <div>
         <button className="startBtn" onClick={() => this.restartGame()}>
-          Start Game
+          Restart Game
         </button>
         <h2>Clicks: {this.state.count}</h2>
         <table className="Board">
