@@ -3,10 +3,16 @@
 }
 
 .startBtn {
-  width: 150px;
-  height: 35px;
-  font-size: 20px;
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
   border-radius: 10px;
+}
+
+.counter {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-right: 70px;
 }
 
 
