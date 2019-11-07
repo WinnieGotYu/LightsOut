@@ -13,11 +13,8 @@ class App extends Component {
         </h1>
         <h4>
           Instructions: The goal is to turn out all the lights, ideally with the
-          minimum number of clicks.
-        </h4>
-        <h4>
-          Clicking on a cell toggles that cell and each of its immediate
-          neighbors.
+          minimum number of clicks. Clicking on a cell toggles that cell and
+          each of its immediate neighbors.
         </h4>
         <Game />
       </div>

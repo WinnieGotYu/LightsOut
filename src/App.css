@@ -3,6 +3,13 @@ h1 {
   margin: 0 0.5em;
 }
 
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 2rem;
