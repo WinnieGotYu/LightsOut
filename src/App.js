@@ -12,7 +12,7 @@ class App extends Component {
           Lights Off <i className="far fa-lightbulb"></i>
         </h1>
         <h4>
-          <b>Instructions: </b>The goal is to turn off all the lights, ideally with the
+          Instructions: The goal is to turn off all the lights, ideally with the
           minimum number of clicks. Clicking on a cell toggles that cell and
           each of its immediate neighbors.
         </h4>
