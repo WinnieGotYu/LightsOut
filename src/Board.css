@@ -11,8 +11,11 @@
 
 
 @media only screen and (max-width: 600px) {
+  .Board {
+    margin: 20px;
+  }
   .startBtn {
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 10px;
   }
 }
