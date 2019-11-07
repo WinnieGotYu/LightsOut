@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>
-          Lights Out <i className="far fa-lightbulb"></i>
+          Lights Off <i className="far fa-lightbulb"></i>
         </h1>
         <h4>
           <b>Instructions: </b>The goal is to turn off all the lights, ideally with the
