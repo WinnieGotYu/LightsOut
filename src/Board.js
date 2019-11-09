@@ -5,8 +5,7 @@ import "./Board.css";
 class Board extends Component {
   static defaultProps = {
     nrows: 5,
-    ncols: 5,
-    chanceLightStartsOn: 0.25
+    ncols: 5
   };
 
   constructor(props) {
@@ -21,14 +20,14 @@ class Board extends Component {
     this.clickCounter = this.clickCounter.bind(this);
   }
 
-  /** create a board nrows high/ncols wide, each cell randomly lit or unlit */
+  /** create a board nrows high/ncols wide, each cell is lit (false)*/
 
   createBoard() {
     let board = [];
     for (let y = 0; y < this.props.nrows; y++) {
       let row = [];
       for (let x = 0; x < this.props.ncols; x++) {
-        row.push(Math.random() < this.props.chanceLightStartsOn);
+        row.push(false);
       }
       board.push(row);
     }
