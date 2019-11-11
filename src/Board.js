@@ -13,7 +13,7 @@ class Board extends Component {
 
     this.state = {
       count: 0,
-      hasWon: false,
+      hasWon: true,
       board: this.createBoard()
     };
     this.flipCellsAround = this.flipCellsAround.bind(this);
@@ -27,7 +27,7 @@ class Board extends Component {
     for (let y = 0; y < this.props.nrows; y++) {
       let row = [];
       for (let x = 0; x < this.props.ncols; x++) {
-        row.push(false);
+        row.push(true);
       }
       board.push(row);
     }
@@ -74,7 +74,13 @@ class Board extends Component {
   render() {
     // if the game is won, just show a winning msg & render nothing else
     if (this.state.hasWon) {
-      return <div>You Win!</div>;
+      return (
+        <div className="winner">
+          <img src="https://media.giphy.com/media/tIeCLkB8geYtW/giphy.gif" alto="winner"/>
+          <h1>You Win! </h1>
+          <button className="startBtn" onClick={() => this.restartGame()}>Restart Game</button>
+        </div>
+      );
     }
     // make table board: rows of Cell components
     let tblBoard = [];

@@ -2,13 +2,13 @@
   height: 90px;
   width: 90px;
   border-radius: 5px;
-  background-color: #F5DD51;
+  background-color:  #383532;
   transition: background-color 0.5s ease;
   box-shadow: 0 1px 6px rgb(243, 213, 132), 0 2px 5px rgba(0, 0, 0, 0.24);
 }
 
 .Cell-lit {
-  background-color: #383532;
+  background-color:#F5DD51;
   box-shadow: 0 1px 6px rgb(0, 0, 0), 0 2px 5px rgba(0, 0, 0, 0.24);
 
 }
