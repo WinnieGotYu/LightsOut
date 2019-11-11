@@ -13,7 +13,7 @@ class Board extends Component {
 
     this.state = {
       count: 0,
-      hasWon: true,
+      hasWon: false,
       board: this.createBoard()
     };
     this.flipCellsAround = this.flipCellsAround.bind(this);
