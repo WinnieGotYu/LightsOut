@@ -9,11 +9,11 @@ Live demo available here: [LightsOff](https://lightsoff.netlify.com/)
 
 ## Component Design 
 
-###App
+### App
 As often, this is a very simple component. It just renders the Board component.
 
-###Board
+### Board
 The most sophisticated component. it holds the state that represents the in-memory grid of true/false for lights-on/off. Since the state for the board lives here, this is also were the setState() occurs. 
 
-###Cell
+### Cell
 A simpler component. This will simply render a <div>, where the CSS classes will indicate whether this cell is lit or unlit. This is what the user clicks on — but it will need to call a function it receives from the Board, since that will need to update the state.
