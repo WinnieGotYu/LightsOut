@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Game from "./Game";
+import Board from "./Board";
 import "./App.css";
 
 /** Simple app that just shows the LightsOut game. */
@@ -16,7 +16,7 @@ class App extends Component {
           minimum number of clicks. Clicking on a cell toggles that cell and
           each of its immediate neighbors.
         </h4>
-        <Game />
+        <Board />
       </div>
     );
   }
