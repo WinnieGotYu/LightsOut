@@ -76,7 +76,7 @@ class Board extends Component {
     if (this.state.hasWon) {
       return (
         <div className="winner">
-          <img src="https://media.giphy.com/media/tIeCLkB8geYtW/giphy.gif" alto="winner"/>
+          <img src="https://media.giphy.com/media/tIeCLkB8geYtW/giphy.gif" alt="winner"/>
           <h1>You Win! </h1>
           <button className="startBtn" onClick={() => this.restartGame()}>Restart Game</button>
         </div>
