@@ -3,7 +3,7 @@
 ## The Game 
 Lights Out is a logic/puzzle game, played on a grid of individual lights, which can either be lit or unlit. The puzzle is won when all of the lights are turned off. See if you can beat the score of 15! : )
 
-Live demo available here: [LightsOut](https://lightsoff.netlify.com/)
+Live demo available here: [LightsOut](https://lightsoutpuzzle.netlify.app/)
 
 ![demo display](https://i.imgur.com/YcrapLb.png)
 
